@@ -1,0 +1,95 @@
+
+<div class="container" id="home">
+    <br><br>
+    <div class="row">
+    
+            <h1 style="color: #d66b00; text-align:center" > <b>Welcome to Gradus!</b></h1>
+            <p style="text-align:center"> 
+                <br>
+                This website is created for help international students in their dream to study in italy.<br>
+                You will find information about the burocracy and a database of the universities with varius information.
+            </p>
+       
+      
+    </div>
+</div>
+
+
+<div class="container" id="information">
+    <br><br>
+    <div class="row">
+        <h2 style="color: #d66b00;"><b>Useful information</b></h2>
+        <p>
+            &nbsp; ◘ <a href="https://www.miur.gov.it/" target="_blank" style="color: #d66b00;">Ministry of Education</a> <br>
+            &nbsp; ◘ <a href="https://www.esteri.it/en/sportello_info/domandefrequenti/studiare-in-italia/" target="_blank" style="color: #d66b00;">Study in Italy</a> <br>
+            &nbsp; ◘ <a href="https://www.study.eu/search?countries=it&currency=EUR&tuition_max=25000&tuition_region=eea&tuition_term=annual&sort=recommended&page=2&authenticity_token=GeLu4USuG-nNkAtlXCtloxc_1KXie6TqtYU018BcczQwASwagRG7R39axxuPlnF4TLFZOB-CNBhnqfhdBLp2nw" target="_blank" style="color: #d66b00;">Programmes in Italy</a> <br>
+            &nbsp; ◘ <a href="https://www.study.eu/country/italy" target="_blank" style="color: #d66b00;">Information about Italy</a> <br>
+            &nbsp; ◘ <a href="https://housinganywhere.com/Italy/studying-in-italy" target="_blank" style="color: #d66b00;">Studying in Italy: Everything you need to know (2023)</a> <br>
+            &nbsp; ◘ <a href="https://education.ec.europa.eu/study-in-europe/countries/italy" target="_blank" style="color: #d66b00;">Italy country profile</a> <br>
+        </p>
+    </div>
+</div>
+
+<div class="container" >
+
+    <br><br>
+    <div class="row" id="university">
+
+        <h2 style="color: #d66b00;"><b>Search universities</b></h2>
+        <br> <br>
+        <div class="col">
+            <h6>By city name</h6>
+            <div class="row">
+                <div class="col">
+                    <input type="text" #box (keyup)="filterCity(box.value)" placeholder="Milano">
+                </div>
+            </div>
+        </div>
+
+        <br><br>
+        <div class="col">
+            <h6>By geography</h6>
+            <div class="row">
+                <div class="col">
+                    <button type="submit" class="btn btn-primary mb-2" style="background-color:hsl(116, 100%, 42%)"
+                        (click)="filterNord()">Nord</button>
+                </div>
+
+                <div class="col">
+                    <button type="submit" class="btn btn-primary mb-2" style="background-color:#ede9e9"
+                        (click)="filterCentro()">Center</button>
+                </div>
+
+                <div class="col">
+                    <button type="submit" class="btn btn-primary mb-2" style="background-color:hsl(2, 100%, 42%)"
+                        (click)="filterSud()">Sud</button>
+                </div>
+            </div>
+        </div>
+
+        <br><br>
+        <div class="col">
+            <h6>By ranking range (1-42)</h6>
+            <div class="row">
+                <div class="col">
+                    <input type="text" #box2 (keyup)="filterRanking(box2.value)" placeholder="4">
+                </div>
+            </div>
+        </div>
+
+        <br><br><br>
+        <p *ngFor="let uni of activeUnis">
+            <b>{{uni.name}}</b> <br>
+            &nbsp; ◘ City: <b style="color: #d66b00;">{{uni.city}}</b> <br>
+            &nbsp; ◘ Students: <b style="color: #d66b00;">{{uni.iscritti}}</b> <br>
+            &nbsp; ◘ Geography: <b style="color: #d66b00;">{{uni.region}}</b> <br>
+            &nbsp; ◘ State university: <b style="color: #d66b00;">{{uni.statale}}</b> <br>
+            &nbsp; ◘ Typology: <b style="color: #d66b00;">{{uni.tipologia}}</b> <br>
+            &nbsp; ◘ Ranking: <b style="color: #d66b00;">{{uni.ranking}}</b> <br>
+            &nbsp; ◘ <a href={{uni.homepage}} target="_blank" style="color: #d66b00;">Homepage</a> <br>
+            &nbsp; ◘ <a href={{uni.apply}} target="_blank" style="color: #d66b00;">Enroll</a>
+        </p>
+
+    </div>
+
+</div>

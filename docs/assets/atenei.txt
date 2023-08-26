@@ -1,0 +1,91 @@
+NomeEsteso,Tipologia_ateneo_descrizione,Statale/NonStataleLibera,COMUNE,Zona Geografica,URL,APPLY,Nunero Iscritti,ranking
+Università degli studi di Torino,University,Yes,TORINO,NORD,www.unito.it,https://en.unito.it/studying-unito/international-degree-seeking-students,77820,10
+Politecnico di Torino,Polytechnic,Yes,TORINO,NORD,www.polito.it,https://www.polito.it/en/education/international-students/exchange-students/admission-procedure/applypolito,33585,5
+Università degli studi del Piemonte orientale Amedeo Avogadro,University,Yes,VERCELLI,NORD,www.uniupo.it,https://www.uniupo.it/en/international/students/you-want-come-upo,13939,100001
+Università di Scienze Gastronomiche,University,No,BRA,NORD,www.unisg.it,https://www.unisg.it/en/programs-admissions/three-year-undergraduate-degree/,352,100002
+Università della Valle d'Aosta,University,No,AOSTA,NORD,www.univda.it,https://www.univda.it/servizi/diritto-allo-studio-e-tasse/studenti-stranieri-o-con-titolo-di-studio-conseguito-allestero/,984,100003
+Università degli studi di Genova,University,Yes,GENOVA,NORD,www.unige.it,https://corsi.unige.it/info/futuri-studenti-immatricolazioni,31860,16
+Università Carlo Cattaneo (LIUC),University,No,CASTELLANZA,NORD,www.liuc.it,https://www.liuc.it/campus-ed-opportunita/international-office/incoming-students/,2850,100005
+Università degli Studi dell' Insubria,University,Yes,VARESE,NORD,www.uninsubria.it,https://www.uninsubria.eu/profili/international-students,11776,100006
+Università telematica e-Campus di Novedrate (CO),Telematic university,No,NOVEDRATE,NORD,www.uniecampus.it,https://www.uniecampus.it/en/registration/enrolment-and-registration-process/,36044,100007
+Università degli Studi di Milano,University,Yes,MILANO,NORD,www.unimi.it,https://www.unimi.it/en/international/coming-abroad,60988,6
+Politecnico di Milano,Polytechnic,Yes,MILANO,NORD,www.polimi.it,https://www.polimi.it/en/exchange-students-incoming,46922,1
+Università Commerciale Luigi Bocconi di Milano,University,No,MILANO,NORD,www.unibocconi.it,https://www.unibocconi.eu/wps/wcm/connect/bocconi/sitopubblico_en/navigation+tree/info/international+students,13743,100010
+Università Cattolica del Sacro Cuore,University,No,MILANO,NORD,www.unicatt.it,https://www.unicatt.eu/enrolment-enrolling-in-the-undergraduate-or-integrated-degree-programmes,42183,15
+Libera Università di Lingue e Comunicazione (IULM),University,No,MILANO,NORD,www.iulm.it,https://www.iulm.it/wps/wcm/connect/iulm/en/orientamento-iscrizioni/iscrizioni-per-studenti-stranieri,7389,100012
+Libera Università Vita-Salute San Raffaele di Milano,University,No,MILANO,NORD,www.unisr.it,https://www.unisr.it/en/servizi/ammissioni,3881,18
+Università degli Studi di Milano - Bicocca,University,Yes,MILANO,NORD,www.unimib.it,https://en.unimib.it/education/teaching/how-enrol-information-international-students,35207,13
+Humanitas University,University,No,ROZZANO,NORD,https://www.hunimed.eu/,https://www.hunimed.eu/course/medtec-school/apply/,1446,100015
+Università degli Studi di Bergamo,University,Yes,BERGAMO,NORD,www.unibg.it,https://en.unibg.it/study/enrollment/steps-for-enrollment,19947,42
+Università degli Studi di Brescia,University,Yes,BRESCIA,NORD,www.unibs.it,https://www.unibs.it/en/education/enrolling/orientation-and-selection-suitable-degree-course,15013,27
+Università degli Studi di Pavia,University,Yes,PAVIA,NORD,www.unipv.it,https://internazionale.unipv.eu/en/mobility/come-to-pavia/,24379,12
+Istituto universitario di studi superiori di Pavia,High School with a special arrangement,Yes,PAVIA,NORD,www.iusspavia.it,https://www.iusspavia.it/en/education/doctoral-programmes/cognitive-brain-sciences/call-application,Unknown,100019
+Libera Università di Bolzano,University,No,BOLZANO - BOZEN,NORD,www.unibz.it,https://www.unibz.it/en/applicants/international/incoming-exchange-students/,4046,19
+Università degli Studi di Trento,University,Yes,TRENTO,NORD,www.unitn.it,https://international.unitn.it/incoming/online-opportunities,16534,11
+Università degli Studi di Verona,University,Yes,VERONA,NORD,www.univr.it,https://www.univr.it/en/our-services/international-degree-seeking-students,23937,29
+Università degli studi Ca' Foscari di Venezia,University,Yes,VENEZIA,NORD,www.unive.it,https://www.unive.it/pag/16399/,20642,21
+Università Iuav di Venezia,University,Yes,VENEZIA,NORD,www.iuav.it,https://www.iuav.it/FUTURI-STU/STUDENTI-S/,4200,100024
+Università degli Studi di Padova,University,Yes,PADOVA,NORD,www.unipd.it,https://www.unipd.it/en/studying-padova-admission,66442,4
+Università degli Studi di Udine,University,Yes,UDINE,NORD,www.uniud.it,https://www.uniud.it/en/uniud-international/International_Students?set_language=en,14569,40
+Università degli Studi di Trieste,University,Yes,TRIESTE,NORD,www.units.it,https://www.units.it/en/students/how-to,16179,23
+Scuola Internazionale Superiore di Studi Avanzati di Trieste,High School with a special arrangement,Yes,TRIESTE,NORD,www.sissa.it,https://www.sissa.it/announcement/call-interests-positions-mathematics-sissa,Unknown,100028
+Università degli Studi di Parma,University,Yes,PARMA,NORD,www.unipr.it,https://www.unipr.it/en/studenti-e-studentesse-extra-ue,29134,34
+Università degli Studi di Modena e Reggio Emilia,University,Yes,MODENA,NORD,www.unimore.it,https://www.unimore.it/ammissione/immaisc.html,26755,20
+Università degli Studi di Bologna,University,Yes,BOLOGNA,NORD,www.unibo.it,https://www.unibo.it/en/international/incoming-exchange-students,84242,3
+Università degli Studi di Ferrara,University,Yes,FERRARA,NORD,www.unife.it,https://www.unife.it/en/come-to-study/enroll,26253,31
+Università degli studi Carlo Bo di Urbino,University,Yes,URBINO,CENTRO,www.uniurb.it,https://www.uniurb.it/international/regular-students/enrolment,14721,100033
+Università Politecnica delle Marche - Ancona,University,Yes,ANCONA,CENTRO,www.univpm.it,https://www.univpm.it/Entra/International/International_students/Immatricolazioni_studenti_internazionali,14650,24
+Università degli Studi di Macerata,University,Yes,MACERATA,CENTRO,www.unimc.it,https://www.unimc.it/en,9811,100035
+Università degli Studi di Camerino,University,Yes,CAMERINO,CENTRO,www.unicam.it,https://www.unicam.it/international-student/study-at-unicam/admissions,5716,100036
+Scuola IMT Alti Studi di Lucca,High School with a special arrangement,Yes,LUCCA,CENTRO,www.imtlucca.it,https://www.imtlucca.it/en/campus-servizi/faqs-eunon-eu-students/visa-application,Unknown,100037
+Università degli Studi di Firenze,University,Yes,FIRENZE,CENTRO,www.unifi.it,https://www.unifi.it/vp-10338-non-eu-students.html#immatricolazione,53056,100038
+Università degli Studi di Pisa,University,Yes,PISA,CENTRO,www.unipi.it,https://www.unipi.it/index.php/enrolment,43584,8
+Scuola Normale Superiore di Pisa,High School with a special arrangement,Yes,PISA,CENTRO,www.sns.it,https://www.sns.it/en/soggiorni-e-tirocini-dallestero,Unknown,100040
+Scuola Superiore di Studi Universitari e Perfezionamento S. Anna di Pisa,High School with a special arrangement,Yes,PISA,CENTRO,www.sssup.it,https://www.santannapisa.it/en/international-relations/santanna-international-profile,Unknown,100041
+Università degli Studi di Siena,University,Yes,SIENA,CENTRO,www.unisi.it,https://en.unisi.it/international/international-degree-seeking-students,15589,25
+Università per stranieri di Siena,University,Yes,SIENA,CENTRO,www.unistrasi.it,https://www.unistrasi.it/1/582/7101/Incoming_exchange_students.htm,1983,100043
+Università degli Studi di Perugia,University,Yes,PERUGIA,CENTRO,www.unipg.it,https://www.unipg.it/en/international-students/incoming-exchange-students/practical-information-for-incoming-students,27585,22
+Università per stranieri di Perugia,University,Yes,PERUGIA,CENTRO,www.unistrapg.it,https://www.unistrapg.it/en/international/international-students/foreign-students-access-to-degree-courses,1070,100045
+Università degli Studi della Tuscia,University,Yes,VITERBO,CENTRO,www.unitus.it,https://www.unitus.it/en/unitus/enrolment/articolo/enrolment-for-extra-eu-students,7696,39
+Università degli Studi di Roma La Sapienza,University,Yes,ROMA,CENTRO,www.uniroma1.it,https://www.uniroma1.it/it/node/256794,107342,2
+Università degli Studi di Roma Tor Vergata,University,Yes,ROMA,CENTRO,www.uniroma2.it,https://web.uniroma2.it/en/percorso/admissions/sezione/how_to_enroll,27869,14
+Libera Università Maria SS.Assunta - (LUMSA) di Roma,University,No,ROMA,CENTRO,www.lumsa.it,https://www.lumsa.it/en/international_enrollment_LUMSA,7619,100049
+Libera Università internazionale degli studi sociali Guido Carli - (LUISS) di Roma,University,No,ROMA,CENTRO,https://www.luiss.it,https://www.luiss.edu/how-to-apply,9998,100050
+Università degli Studi Roma Tre,University,Yes,ROMA,CENTRO,www.uniroma3.it,https://portalestudente.uniroma3.it/en/enrollment/admission/guide-how-to-apply/,31381,35
+Università Campus Bio-medico di Roma,University,No,ROMA,CENTRO,www.unicampus.it,https://www.unicampus.it/en/degree-course-admissions/,2455,100052
+Università degli Studi Internazionali di Roma – UNINT,University,No,ROMA,CENTRO,www.luspio.it,https://www.unint.eu/en/international-students,1836,100053
+Università telematica Guglielmo Marconi di Roma,Telematic university,No,ROMA,CENTRO,www.unimarconi.it,https://www.unimarconi.com/admissions/,9946,100054
+Università telematica Unitelma Sapienza di Roma,Telematic university,No,ROMA,CENTRO,www.unitelma.it,https://www.unitelmasapienza.it/en/enrolment/,2766,100055
+Università Europea di Roma,University,No,ROMA,CENTRO,www.unier.it,https://www.universitaeuropeadiroma.it/en/admissions/,2063,100056
+Università telematica internazionale UNINETTUNO di Roma,Telematic university,No,ROMA,CENTRO,www.uninettunouniversity.net,https://www.uninettunouniversity.net/en/immatricolazione-studenti-stranieri.aspx,15101,100057
+Università telematica Niccolò Cusano di Roma,Telematic university,No,ROMA,CENTRO,www.unicusano.it,https://www.unicusano.it/en/facilities/instructions-for-non-eu-students-to-enroll-and-get-a-study-visa,26140,100058
+Link Campus University di Roma,University,No,ROMA,CENTRO,www.unilink.it,https://www.unilink.it/international/how-to-apply,514,100059
+Università degli Studi di Cassino e del Lazio Meridionale,University,Yes,CASSINO,CENTRO,www.unicas.it,http://www.eng.unicas.it/nodo.php?nodo=5,7186,100060
+Università degli Studi del Sannio,University,Yes,BENEVENTO,SUD,www.unisannio.it,https://www.unisannio.it/en/studente/futuro-studente,3832,100061
+Università degli studi di Napoli Federico II,University,Yes,NAPOLI,SUD,www.unina.it,https://www.international.unina.it/education/admission-regulation/,73553,7
+Università degli Studi di Napoli - Parthenope,University,Yes,NAPOLI,SUD,www.uniparthenope.it,https://international.uniparthenope.it/how-to-enrol/,11222,38
+Università degli studi L'Orientale di Napoli,University,Yes,NAPOLI,SUD,www.unior.it,https://www.isu-services.it/en/universities/universita-degli-studi-di-napoli-l-orientale,11018,100064
+Università degli studi Suor Orsola Benincasa di Napoli,University,No,NAPOLI,SUD,www.unisob.na.it,https://www.unisob.na.it/universita/iscrizioniol/index.htm?vr=1&lg=en,8649,100065
+Seconda Università degli Studi di Napoli,University,Yes,CASERTA,SUD,www.unicampania.it,https://international.unicampania.it/index.php/en/international/services-for-foreign-students/international-welcome-desk,22160,100066
+Universita telematica Pegaso di Napoli,Telematic university,No,NAPOLI,SUD,www.unipegaso.it,https://www.unipegaso.it/studenti/studenti-stranieri,27887,100067
+Università degli Studi di Salerno,University,Yes,FISCIANO,SUD,www.unisa.it,https://web.unisa.it/en/international/enrollment-at-unisa/non-eu-citizens-in-italy,33332,28
+Università degli studi di L'Aquila,University,Yes,L'AQUILA,SUD,www.univaq.it,https://www.univaq.it/section.php?id=1958&lang_s=en,16160,100069
+Gran Sasso Science Institute - Scuola di dottorato internazionale dell'Aquila,High School with a special arrangement,Yes,L'AQUILA,SUD,www.gssi.infn.it,https://www.gssi.it/communication/announcements/item/21717-phd-call-for-applications-2023-24-now-open,Unknown,100070
+Università degli Studi di Teramo,University,Yes,TERAMO,SUD,www.unite.it,https://www.unite.it/English/Home_page/Enrolment_availability_to_international_students,5057,100071
+Università degli studi Gabriele D'Annunzio di Chieti e Pescara,University,Yes,CHIETI,SUD,www.unich.it,https://www.unich.it/didattica/international/international-students/call-applications-50-scholarships-international,21694,37
+Università degli Studi del Molise,University,Yes,CAMPOBASSO,SUD,www.unimol.it,https://www.unimol.it/internazionale/nomepagina/,6649,100073
+Università degli Studi di Foggia,University,Yes,FOGGIA,SUD,www.unifg.it,https://www.unifg.it/en/students,12310,100074
+Università degli Studi di Bari,University,Yes,BARI,SUD,www.uniba.it,https://www.uniba.it/en/students/international-students,40530,26
+Politecnico di Bari,Polytechnic,Yes,BARI,SUD,www.poliba.it,http://www.poliba.it/it/internazionale/studyingpoliba-international-students,9839,17
+Università del Salento,University,Yes,LECCE,SUD,www.unisalento.it,https://international.unisalento.it/how-to-apply,18100,41
+Università degli studi della Basilicata,University,Yes,POTENZA,SUD,www.unibas.it,https://portale.unibas.it/site/en/home/students/how-to-apply.html,5871,100078
+Università della Calabria,University,Yes,RENDE,SUD,www.unical.it,https://www.unical.it/internazionale/intenational-students/international-course-catalogue/,23416,36
+Università degli studi di Catanzaro - Magna Grecia,University,Yes,CATANZARO,SUD,www.unicz.it,https://web.unicz.it/en/page/85321,10889,100080
+Università degli studi Mediterranea di Reggio Calabria,University,Yes,REGGIO DI CALABRIA,SUD,www.unirc.it,https://www.unirc.it/en/applyingto.php,4782,100081
+Università per stranieri Dante Alighieri di Reggio Calabria,University,No,REGGIO DI CALABRIA,SUD,www.unistrada.it,https://www.unidarc.it/internazionale/,495,100082
+Università degli Studi di Palermo,University,Yes,PALERMO,SUD,www.unipa.it,https://www.unipa.it/mobilita/en/new-students/new-students---enrolment/enrolment-procedures-for-extra-eu-foreign-students/,41610,33
+Università degli Studi di Messina,University,Yes,MESSINA,SUD,www.unime.it,https://international.unime.it/study-us/application-and-admission,23270,32
+Libera Università della Sicilia Centrale KORE di Enna,University,No,ENNA,SUD,www.unikore.it,https://unikore.it/en/study/,4703,100085
+Università degli Studi di Catania,University,Yes,CATANIA,SUD,www.unict.it,https://www.unict.it/en/education/international-students,37602,30
+Università degli Studi di Sassari,University,Yes,SASSARI,SUD,www.uniss.it,https://en.uniss.it/study/some-good-reasons-study-sassari/enrolment-procedures-international-students,12707,100087
+Università degli Studi di Cagliari,University,Yes,CAGLIARI,SUD,www.unica.it,https://www.unica.it/it/internazionale/studiare-unica/iscriversi-dallestero,24373,100088
