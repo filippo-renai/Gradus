@@ -37,17 +37,17 @@
 
         <h2 style="color: #d66b00;"><b>Search universities</b></h2>
         <br> <br>
-        <div class="col">
+      
             <h6>By city name</h6>
             <div class="row">
                 <div class="col">
                     <input type="text" #box (keyup)="filterCity(box.value)" placeholder="Milano">
                 </div>
             </div>
-        </div>
+        
 
         <br><br>
-        <div class="col">
+       
             <h6>By geography</h6>
             <div class="row">
                 <div class="col">
@@ -65,17 +65,17 @@
                         (click)="filterSud()">Sud</button>
                 </div>
             </div>
-        </div>
+      
 
         <br><br>
-        <div class="col">
+       
             <h6>By ranking range (1-42)</h6>
             <div class="row">
                 <div class="col">
                     <input type="text" #box2 (keyup)="filterRanking(box2.value)" placeholder="4">
                 </div>
             </div>
-        </div>
+      
 
         <br><br><br>
         <p *ngFor="let uni of activeUnis">
