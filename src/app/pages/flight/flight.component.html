@@ -1,0 +1,60 @@
+<div class="container" id="flight">
+    <br><br>
+    <div class="row">
+        <div class="col">
+            <h2 style="color: #d66b00;"><b>Italian airports</b></h2>
+            <h6>Airport information</h6>
+            <select class="form-control" #iso (click)="information(iso.value)">
+                <option>AHO◄-►Fertilia Airport </option>
+                <option>AOI◄-►Falconara Airport </option>
+                <option>BDS◄-►Casale Airport </option>
+                <option>BGY◄-►Bergamo/Orio al Serio Airport </option>
+                <option>BLQ◄-►Guglielmo Marconi Airport </option>
+                <option>BRI◄-►Palese Airport </option>
+                <option>BZO◄-►Dolomiti Airport </option>
+                <option>CAG◄-►Elmas Airport </option>
+                <option>CIA◄-►Ciampino Airport</option>
+                <option>CIY◄-►Vincenzo Magliocco Airport </option>
+                <option>CRV◄-►Crotone Airport </option>
+                <option>CTA◄-►Fontanarossa Airport </option>
+                <option>CUF◄-►Levaldigi Airport </option>
+                <option>FCO◄-►Fiumicino Airport </option>
+                <option>FLR◄-►Peretola Airport </option>
+                <option>FOG◄-►Gino Lisa Airport </option>
+                <option>FRL◄-►Luigi Ridolfi Airport </option>
+                <option>GOA◄-►Cristoforo Colombo Airport </option>
+                <option>LIN◄-►Linate Airport </option>
+                <option>LMP◄-►Lampedusa Airport </option>
+                <option>MXP◄-►Malpensa Airport </option>
+                <option>NAP◄-►Capodichino Airport </option>
+                <option>OLB◄-►Costa Smeralda Airport</option>
+                <option>PEG◄-►Saint Francis of Assisi Airport</option>
+                <option>PMF◄-►Parma Airport </option>
+                <option>PMO◄-►Punta Raisi Airport </option>
+                <option>PNL◄-►Pantelleria Airport</option>
+                <option>PSA◄-►Galileo Galilei Airport </option>
+                <option>PSR◄-►Abruzzo Airport </option>
+                <option>REG◄-►Reggio di Calabria Airport </option>
+                <option>RMI◄-►Miramare Airport </option>
+                <option>SUF◄-►Lamezia Terme Airport </option>
+                <option>TPS◄-►Birgi Airport</option>
+                <option>TQR◄-►Isole Tremiti Heliport</option>
+                <option>TRN◄-►Caselle Airport </option>
+                <option>TRS◄-►Ronchi dei Legionari Airport </option>
+                <option>TSF◄-►Treviso/Sant'Angelo Airport </option>
+                <option>VCE◄-►Marco Polo Airport </option>
+                <option>VRN◄-►Villafranca Airport </option>
+            </select>
+            <br>
+           
+        </div>
+        <div class="col"></div>
+        <p *ngFor="let inf of info">
+            <b>{{inf.nome}}</b> <br>
+            &nbsp; ◘ City: <b style="color: #d66b00;">{{inf.citta}}</b> <br>
+            &nbsp; ◘ Address: <b style="color: #d66b00;">{{inf.address}}</b> <br>
+            &nbsp; ◘ Phone: <b style="color: #d66b00;">{{inf.telefono}}</b> <br>
+            &nbsp; ◘ <a href={{inf.sito}} target="_blank" style="color: #d66b00;">Homepage</a>
+        </p>
+    </div>
+</div>

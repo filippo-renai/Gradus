@@ -1,0 +1,23 @@
+<div class="container" id="currency">
+    <br><br>
+    <div class="row">
+        <h2 style="color: #d66b00;"><b>Currency with €</b></h2>
+        <div class="col">
+            <input type="text" placeholder="10" #box> <br><br>
+            <select class="form-control-sm" #valuta>
+                <option>₺</option>
+                <option>$</option>
+                <option>¥</option>
+                <option>£</option>
+            </select>
+            <br><br>
+            <button type="submit" class="btn btn-primary mb-2"
+            style="background-color:#d66b00;" (click)="calculate(box.value,valuta.value)">Calculate</button>
+ 
+        </div>
+        <div class="col">
+        </div>
+        <h4 style="color: #d66b00;" *ngIf="risultato !== ''"><b>{{risultato}} €</b></h4>
+
+    </div>
+</div>
