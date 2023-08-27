@@ -1,10 +1,10 @@
 <div class="container" id="flight">
-    <br><br>
+    <br><br><br>
     <div class="row">
         <div class="col">
             <h2 style="color: #d66b00;"><b>Italian airports</b></h2>
             <h6>Airport information</h6>
-            <select class="form-control" #iso (click)="information(iso.value)">
+            <select class="form-control" #iso >
                 <option>AHO◄-►Fertilia Airport </option>
                 <option>AOI◄-►Falconara Airport </option>
                 <option>BDS◄-►Casale Airport </option>
@@ -45,7 +45,9 @@
                 <option>VCE◄-►Marco Polo Airport </option>
                 <option>VRN◄-►Villafranca Airport </option>
             </select>
-            <br>
+            <br><br>
+            <button type="submit" class="btn btn-primary mb-2"
+            style="background-color:#d66b00;" (click)="information(iso.value)">Calculate</button>
            
         </div>
         <div class="col"></div>
