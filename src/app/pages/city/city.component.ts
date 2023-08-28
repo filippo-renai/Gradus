@@ -101,7 +101,7 @@ export class CityComponent implements OnInit {
       }
 
     } catch (error) {
-      return
+      weather = []
     }
 
 
