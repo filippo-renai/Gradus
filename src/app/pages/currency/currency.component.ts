@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-
 @Component({
   selector: 'app-currency',
   templateUrl: './currency.component.html',
@@ -43,9 +42,12 @@ export class CurrencyComponent implements OnInit {
 
     try {
       const response = await axios.request(options);
-      this.risultato = response.data.result.data[0].calculatedstr
+      this.risultato =
+        response.data.result.data[0].calculatedstr === null || response.data.result.data[0].calculatedstr === '' ?
+          'Information in this moment not available' :
+          response.data.result.data[0].calculatedstr + ' €'
     } catch (error) {
-      console.error(error);
+      this.risultato = 'Information in this moment not available'
     }
 
   }

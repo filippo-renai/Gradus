@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Md5} from "md5-typescript";
 
 export interface Information {
   nome: string,
@@ -28,7 +29,7 @@ export class FlightComponent implements OnInit {
     iso = iso.split("◄-►")[0]
 
     const axios = require('axios');
-
+    
     const options = {
       method: 'GET',
       url: 'https://airport-info.p.rapidapi.com/airport',
@@ -41,13 +42,13 @@ export class FlightComponent implements OnInit {
 
     try {
       const response = await axios.request(options);
-      console.log(response.data)
+      // Not all information is provide always !!!
       this.info.push({
-        nome: response.data.name,
-        citta: response.data.location,
-        address: response.data.street + ' ' +  response.data.street_number,
-        telefono: response.data.phone,
-        sito: response.data.website
+        nome: response.data.name === null || response.data.name === ''  ? 'Unknow' : response.data.name,
+        citta: response.data.location === null || response.data.location === ''  ? 'Unknow' : response.data.location,
+        address: (response.data.street === null || response.data.street === ''  ? 'Unknow' : response.data.street) + ' ' +  response.data.street_number,
+        telefono: response.data.phone === null || response.data.phone === ''  ? 'Unknow' : response.data.phone,
+        sito: response.data.website === null || response.data.website === ''  ? 'Unknow' : response.data.website
       })
     } catch (error) {
       console.log(error)
