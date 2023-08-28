@@ -12,12 +12,16 @@ export class CurrencyComponent implements OnInit {
   }
 
   async calculate(valore: string, valuta: string): Promise<void> {
-    if (valore === '')
+    if (valore === ''){
+      alert("Error!\nYou should have an value to convert")
       return;
+    }
 
     let val = +valore
-    if (Number.isNaN(val))
+    if (Number.isNaN(val)){
+      alert("Error!\nYou should write a number")
       return
+    }
 
     if (valuta === '₺') valuta = 'TRY'
     if (valuta === '$') valuta = 'USD'

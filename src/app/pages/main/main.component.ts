@@ -122,4 +122,15 @@ export class MainComponent implements OnInit {
     
   }
 
+  async filterInformation(citta : string): Promise<Uni[]>{
+
+    if( this.unis.length === 0)
+      this.populationUni() 
+
+    return this.unis.filter((u) => {
+      return u.city.toLowerCase() === citta.toLowerCase()
+    })
+
+  }
+
 }

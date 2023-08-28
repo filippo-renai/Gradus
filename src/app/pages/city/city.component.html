@@ -1,0 +1,143 @@
+<div class="container" id="city">
+    <br><br><br>
+    <div class="row">
+        <h2 style="color: #d66b00;"><b>City information</b></h2>
+        <div class="col">
+            <div class="row">
+                <div class="col">
+                    <input type="text" placeholder="Milano" #citta><br><br>
+                    <button type="submit" class="btn btn-primary mb-2" style="background-color:#d66b00;"
+                        (click)="information(citta.value)">Search</button>
+                    <br><br>
+                    <div class="card" style="width: 18rem;" *ngFor="let c of city">
+                        <img class="card-img-top" src="../../../assets/citta.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color:#d66b00;"><b>{{c.name}}</b></h5>
+                            <p class="card-text">
+                                The city is in the {{c.region.toLowerCase()}} of Italy with {{c.university.length}}
+                                university, and {{c.closeAirport.length}} airports. <br><br>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#airportModal" style="background-color:#d66b00;"
+                                    *ngIf="c.closeAirport.length !== 0">
+                                    ✈
+                                </button>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#uniModal" style="background-color:#d66b00;"
+                                    *ngIf="c.university.length !== 0">
+                                    🎓
+                                </button>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#tempoModal" style="background-color:#d66b00;"
+                                    *ngIf="c.tempo.length !== 0">
+                                    ⛅
+                                </button>
+                            </p>
+
+                            <!-- Airport -->
+                            <div class="modal fade" id="airportModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel" style="color:#d66b00;">
+                                                <b>Airports of {{c.name}}</b>
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p *ngFor="let inf of c.closeAirport">
+                                                <b>{{inf.nome}}</b> <br>
+                                                &nbsp; ◘ Address: <b style="color: #d66b00;">{{inf.address}}</b> <br>
+                                                &nbsp; ◘ Phone: <b style="color: #d66b00;">{{inf.telefono}}</b> <br>
+                                                &nbsp; ◘ <a href={{inf.sito}} target="_blank"
+                                                    style="color: #d66b00;">Homepage</a>
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                                                style="background-color:#d66b00;">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- uni -->
+                            <div class="modal fade" id="uniModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel" style="color:#d66b00;">
+                                                <b>Universities in {{c.name}}</b>
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p *ngFor="let uni of c.university">
+                                                <b>{{uni.name}}</b> <br>
+                                                &nbsp; ◘ Students: <b style="color: #d66b00;">{{uni.iscritti}}</b> <br>
+                                                &nbsp; ◘ Geography: <b style="color: #d66b00;">{{uni.region}}</b> <br>
+                                                &nbsp; ◘ State university: <b
+                                                    style="color: #d66b00;">{{uni.statale}}</b> <br>
+                                                &nbsp; ◘ Typology: <b style="color: #d66b00;">{{uni.tipologia}}</b> <br>
+                                                &nbsp; ◘ Ranking: <b style="color: #d66b00;">{{uni.ranking}}</b> <br>
+                                                &nbsp; ◘ <a href={{uni.homepage}} target="_blank"
+                                                    style="color: #d66b00;">Homepage</a> <br>
+                                                &nbsp; ◘ <a href={{uni.apply}} target="_blank"
+                                                    style="color: #d66b00;">Enroll</a>
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                                                style="background-color:#d66b00;">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- tempo -->
+                            <div class="modal fade" id="tempoModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel" style="color:#d66b00;">
+                                                <b>Current Weather in {{c.name}}</b>
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p *ngFor="let t of c.tempo">
+                                                In <b>{{c.name}}</b> is {{t.condition}} with temperature of {{t.temp}}° with a percetion of {{t.per}}°, the humidity is {{t.humidity}}%.
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                                                style="background-color:#d66b00;">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+        </div>
+        <br>
+
+
+
+
+
+
+    </div>
+</div>

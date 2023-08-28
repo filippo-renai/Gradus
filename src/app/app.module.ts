@@ -8,7 +8,9 @@ import { FooterComponent } from './core/footer/footer.component';
 import { MainComponent } from './pages/main/main.component';
 import { FlightComponent } from './pages/flight/flight.component';
 import { CurrencyComponent } from './pages/currency/currency.component';
-
+import { CityComponent } from './pages/city/city.component';
+import { MatDialogModule } from "@angular/material/dialog";
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,11 +18,14 @@ import { CurrencyComponent } from './pages/currency/currency.component';
     FooterComponent,
     MainComponent,
     FlightComponent,
-    CurrencyComponent
+    CurrencyComponent,
+    CityComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatDialogModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
