@@ -48,7 +48,7 @@ export class CityComponent implements OnInit {
     let air = await this.flight.searchAirport(cittaCerca)
 
     if(uni.length === 0 && air.length === 0){
-      alert("I'm sorry but this city have 0 universities and 0 airports!")
+      alert("I'm sorry but this city has 0 universities and 0 airports!")
       return;
     }
     let weather: Weather[] = []

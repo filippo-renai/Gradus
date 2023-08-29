@@ -102,7 +102,7 @@ export class FlightComponent implements OnInit {
     this.cityIata.push({ iata: 'LIN', city: 'Milano' })
     this.cityIata.push({ iata: 'LMP', city: 'Lampedusa' })
     this.cityIata.push({ iata: 'MXP', city: 'Milano' })
-    this.cityIata.push({ iata: 'NAP', city: 'Nap' })
+    this.cityIata.push({ iata: 'NAP', city: 'Napoli' })
     this.cityIata.push({ iata: 'OLB', city: 'Olbia' })
     this.cityIata.push({ iata: 'PEG', city: 'Perugia' })
     this.cityIata.push({ iata: 'PMF', city: 'Parma' })
